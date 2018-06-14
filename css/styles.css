@@ -1,0 +1,29 @@
+* {
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+.vidtxt {
+  max-width: 80%;
+}
+
+@media (min-width: 1000px) {
+  body {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .video {
+    margin-top: 5%;
+  }
+
+  .vidtxt {
+    max-width: 100%;
+  }
+
+}
